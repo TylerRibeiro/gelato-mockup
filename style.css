@@ -1,0 +1,110 @@
+/* Universal values are defined below */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #3882f6;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f9faf8;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+nav {
+  background-color: #1f2937;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Values that require higher specificity are defined below */
+
+/* Header/Footer Section */
+
+.topHeader,
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer {
+  color: #f9faf8;
+  font-size: 20px;
+}
+
+.header p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.headerLinks a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-right: 10px;
+}
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.headerContent p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.headerImage img {
+  border: 1px solid #ddd;
+  border-radius: 30%;
+  width: 300px;
+  height: 250px;
+}
+
+/* Mid Content Section */
+.midContentInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.midContentInfo img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+.midContentInfo p {
+  text-align: center;
+}
+.midContent h2 {
+  text-align: center;
+}
+
+/* Quote Section */
+
+.quoteSection {
+  background-color: #e5e7eb;
+  font-size: 24px;
+}
