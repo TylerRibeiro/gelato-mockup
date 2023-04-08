@@ -108,3 +108,42 @@ nav {
   background-color: #e5e7eb;
   font-size: 24px;
 }
+/* Styling for rating system */
+
+.rating-feedback {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.stars {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.stars input[type="radio"] {
+  display: none;
+}
+
+.stars label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 2px;
+  color: #ccc;
+}
+
+.stars input[type="radio"]:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+  color: #f5d942;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
