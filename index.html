@@ -75,26 +75,29 @@
     <!--Contact Section-->
     <div class="contactSection">
       <div>
-        <label class="FormTitle" for="EmailForm">Get in touch with us!</label>
-        <br />
-        <input
-          class="FormA"
-          type="email"
-          name="email"
-          id="EmailForm"
-          placeholder="Input your new Email!"
-        />
-        <br />
-        <input
-          class="FormA"
-          type="text"
-          name="message"
-          id="data"
-          placeholder="Please input your message"
-        />
-        <br />
-        <button class="FormA" type="submit">Submit</button>
-      </div>
+  <form method="POST" action="/send_email.php">
+    <label class="FormTitle" for="EmailForm">Get in touch with us!</label>
+    <br />
+    <input
+      class="FormA"
+      type="email"
+      name="email"
+      id="EmailForm"
+      placeholder="Input your new Email!"
+    />
+    <br />
+    <input
+      class="FormA"
+      type="text"
+      name="message"
+      id="data"
+      placeholder="Please input your message"
+    />
+    <br />
+    <button class="FormA" type="submit">Submit</button>
+  </form>
+</div>
+
     </div>
     <!--Footer Section-->
     <div class="footer">
